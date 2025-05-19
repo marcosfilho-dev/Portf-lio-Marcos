@@ -39,6 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
+              Image.network('https://www.google.com/url?sa=i&url=https%3A%2F%2Fletsenhance.io%2F&psig=AOvVaw1HIn0rPVappQLAmPudRK5j&ust=1747708546379000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNjPqeq_ro0DFQAAAAAdAAAAABAE'),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
@@ -48,6 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                  Row(
                   children: [
                     Image.asset('assets/github.png', scale: 1,),
+                    
                     IconButton(onPressed: (){}, icon: Image.asset("assets/gmail.png", fit: BoxFit.cover,) ),
                     IconButton(onPressed: (){}, icon: Image.asset("assets/logo_git.png")),
                   ],)
